@@ -1,0 +1,114 @@
+mat-card{  
+    font-size: 12px;
+}
+
+button.back{
+    float: left;
+    margin-top: 20px;
+    font-size: 15px;
+    color: black;
+}
+h1{
+    float: left;
+    width: 250px;
+    font-size: 20px;
+    font-family: Roboto;
+    margin-left: 250px;
+}
+
+button.pay-now {
+    height: 50px;
+    width: 17%;
+    margin-left: 350px;
+    background-color: rgb(248, 248, 255);
+}
+
+div#total{
+    font-size: 25px;
+    padding-top: 0px;
+    margin-left: 250px;
+    width: 61%;
+}
+div#final-total{
+    font-size: 15px;
+    padding: 10px;
+    padding-top: 20px;
+
+}
+
+th.total{
+    padding-left: 20px;
+    float: right;
+}
+
+mat-card.list-group-guest{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    left: 250px;
+    width: 62%;
+    height: 70px;
+    }
+
+table>div.guest-row-1{
+    float: left;
+    padding: 5px;
+}
+
+mat-card.list-group-room{
+    margin-top: 20px;
+    border: 2px solid black;
+    left: 250px;
+    width: 62%;
+    }
+
+table>div{
+    float: left;
+    padding: 5px;
+}
+
+div.row2{
+    text-align: center;
+    margin-left: 230px;
+}
+
+div.row3{
+text-align: right;
+position: absolute;
+margin-left: 725px;
+}
+
+div#total{
+    font-size: 15px;
+    padding: 10px;
+    border-top: 2px solid black;
+}
+
+th.total{
+    padding-left: 20px;
+    float: right;
+}
+
+
+
+mat-card.list-group-services{
+    margin-top: 10px;
+    border: 2px solid black;
+    left: 250px;
+    width: 62%;
+    }
+
+table>div{
+    float: left;
+    padding: 5px;
+}
+
+div.row2{
+    text-align: left;
+    margin-left: 130px;
+}
+
+
+
+
+

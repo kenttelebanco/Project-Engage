@@ -1,0 +1,43 @@
+@import "src/styles/global";
+
+.squareleft{
+    border: 2px solid black;
+	float: left;
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 2px;
+    margin-top: 35px;
+    margin-left: 20px;
+  }
+
+div.container_one{
+    float:right;  
+    border: 2px solid black;
+    margin-top: 15px;
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+}
+
+div.container_two{
+    float:right;  
+    border: 2px solid black;
+    margin-right: 15px;
+    margin-top: 15px;
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+}
+
+h1.unit-name{
+    font-size: 30px;
+}
+
+div.container{
+    position: relative;
+    margin-top: 38px;
+    width: 310px;
+    margin-left: 0px;
+    float: left;
+}

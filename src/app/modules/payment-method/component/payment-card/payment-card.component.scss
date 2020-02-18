@@ -1,0 +1,32 @@
+
+div.payment-method {
+position: absolute;    
+margin-top: 75px;
+}
+
+h1 {
+    font-size: 25px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+
+mat-expansion-panel{
+    width: 200%;
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+mat-checkbox.payment-method{
+    margin-right: 10px;
+}
+
+::ng-deep mat-panel-title.mat-expansion-panel-header-title{
+    padding: 10px 0px 10px 0px;
+}
+
+div.card-info{
+    display: flex;
+    flex-flow: column;
+}

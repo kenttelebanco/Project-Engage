@@ -1,0 +1,24 @@
+
+::ng-deep div.mat-checkbox-inner-container-no-side-margin{
+    border-radius: 45px;
+    height: 30px;
+    width: 30px;
+}
+
+p.room_label{
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+}
+
+div.checkbox{
+    margin-right: 50px;
+    width: 10%;
+}
+
+div.boxing{
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 220px;
+    display: flex;
+}

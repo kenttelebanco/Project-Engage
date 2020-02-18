@@ -1,0 +1,39 @@
+
+li.list-inline-item{
+    width: 300px;
+    font-weight: 250px;
+    font-size: 12px;
+    display: inline;
+}
+
+ul.list-group{  
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+li.list-inline-item::before {content: "•"; color: black}
+
+div.service-card{
+    background-color: rgba(211, 207, 207, 0.39);
+    height: 150px;
+    width: 100%;
+}
+
+h1.unit-name{
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+div.squareleft{
+    border: 2px solid black;
+    margin: 25px;
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+  }
+
+  mat-checkbox.left{
+    float: right;
+    margin-right: 30px;
+  }

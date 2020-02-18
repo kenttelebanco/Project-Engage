@@ -1,0 +1,43 @@
+<div fxLayout="row" fxLayoutAlign="center start" >
+<mat-horizontal-stepper [linear]="isLinear" #stepper>
+
+  <mat-step [stepControl]="firstFormGroup">
+    <form [formGroup]="firstFormGroup">
+      <app-calendar></app-calendar>
+      <availability-panel></availability-panel>
+    </form>
+  </mat-step>
+
+  <mat-step [stepControl]="secondFormGroup">
+    <form [formGroup]="secondFormGroup">
+      <panel-nav></panel-nav>
+      <unit-information-panel></unit-information-panel>
+      <unit-information></unit-information>
+    </form>
+  </mat-step>
+
+  <mat-step [stepControl]="thirdFormGroup">
+    <form [formGroup]="thirdFormGroup">
+      <panel-nav></panel-nav>
+      <unit-information-panel></unit-information-panel>
+      <unit-service-panel></unit-service-panel>
+      <unit-services></unit-services>
+    </form>
+  </mat-step>
+
+
+  <mat-step [stepControl]="fourthFormGroup">
+    <form [formGroup]="fourthFormGroup">
+      <panel-nav></panel-nav>
+      <unit-information-panel></unit-information-panel>
+      <unit-service-panel></unit-service-panel>
+      <unit-guest-panel></unit-guest-panel>
+      <unit-guest></unit-guest>
+    </form>
+  </mat-step>
+
+  <mat-step>
+    <order-summary></order-summary>
+  </mat-step>
+</mat-horizontal-stepper>
+</div>

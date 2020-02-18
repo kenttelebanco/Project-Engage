@@ -1,0 +1,9 @@
+@import "src/styles/global";
+
+.nav-item{
+    @include nav;
+}
+
+.active {
+    @include nav;
+}

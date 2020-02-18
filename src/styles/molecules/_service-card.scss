@@ -1,0 +1,30 @@
+mat-card.service-card{
+    cursor: pointer;
+        height: 130px;
+        width: 28%;
+        border: 2px solid black;
+    }
+
+mat-card#accomodations{
+    margin-left: 45px;
+    float: left;
+}
+
+mat-card#memberships{
+    float: left;
+}
+
+mat-card#transports{
+    float: right;
+
+}
+
+p.context{
+    font-size: 12px;
+    float: right;
+ }
+
+h2.service {
+    margin-bottom: 0px;
+    margin-top: 53px;
+    }

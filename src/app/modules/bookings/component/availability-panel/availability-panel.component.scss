@@ -1,0 +1,55 @@
+@import "src/styles/global";
+
+mat-card{
+    height: 410px;
+    top: 190px;
+}
+a.user_name {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 200%;
+    position: absolute;
+    left: 150px;
+}
+
+h1 {
+    font-family: Roboto;
+    font-weight:500;
+    left: 50px;
+    position: absolute;
+}
+
+h1.unit_room {
+    font-size: 100%;
+    top: 130px;
+}
+
+h1.unit_available{
+    font-size: 110%;
+    top: 230px;
+}
+
+p.email{
+    font-weight: initial;
+    font-size: 100%;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+}
+
+button{
+margin-left: 100px;
+margin-top: 50px;
+width: 200px;
+height: 35px;
+}
+
+.circle {
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    margin-left: 30px;
+    background-color: rgb(163, 158, 158);
+    border-radius: 50%;
+    position: absolute;
+  }

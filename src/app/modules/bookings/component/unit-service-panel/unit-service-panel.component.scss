@@ -1,0 +1,28 @@
+@import "src/styles/global";
+
+mat-card{
+    margin-top: 200px;
+    height: 70px;
+}
+
+div.order-panel{
+    padding: 10px;
+}
+
+div.row2{
+    border-bottom: 1px solid black ;
+    font-weight: 550;
+    float: right;
+    margin-left: 215px;
+
+}
+
+div.row1{
+    font-weight: 400;
+    float: left;
+}
+
+div.order-panel{
+    font-size: smaller;
+    padding-top: 0px;
+}

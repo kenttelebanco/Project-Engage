@@ -1,0 +1,94 @@
+<h1>PAYMENT METHOD</h1>
+<div class="payment-method">
+<mat-accordion>
+    <mat-expansion-panel>
+
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <mat-checkbox class="payment-method" [(ngModel)]="checked"></mat-checkbox>
+          VISA
+        </mat-panel-title>
+
+      </mat-expansion-panel-header>
+  
+      <div class="card-info">
+        <mat-form-field>
+          <input type="name" matInput placeholder="Card Number">
+        </mat-form-field>
+  
+      <mat-form-field>
+        <input type="name" matInput placeholder="Card Name">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input type="exp-date" matInput placeholder="Expiration Date">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="CVV">
+      </mat-form-field>
+    </div>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <mat-checkbox class="payment-method" [(ngModel)]="checked"></mat-checkbox>
+          MASTERCARD
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+     
+      <div class="card-info">
+        <mat-form-field>
+          <input type="name" matInput placeholder="Card Number">
+        </mat-form-field>
+  
+      <mat-form-field>
+        <input type="name" matInput placeholder="Card Name">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input type="exp-date" matInput placeholder="Expiration Date">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="CVV">
+      </mat-form-field>
+    </div>
+
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+
+
+    <mat-expansion-panel-header>
+        <mat-panel-title>
+          <mat-checkbox class="payment-method" [(ngModel)]="checked"></mat-checkbox>
+           PAYPAL
+         </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div class="card-info">
+        <mat-form-field>
+          <input type="name" matInput placeholder="Card Number">
+        </mat-form-field>
+  
+      <mat-form-field>
+        <input type="name" matInput placeholder="Card Name">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input type="exp-date" matInput placeholder="Expiration Date">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="CVV">
+      </mat-form-field>
+    </div>
+    
+      </mat-expansion-panel>
+
+
+  
+
+

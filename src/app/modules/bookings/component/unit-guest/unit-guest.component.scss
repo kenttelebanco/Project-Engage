@@ -1,0 +1,28 @@
+div.guest-form {
+    margin-left: 20px;
+    float: left;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+  }
+  
+  div.guest-form > * {
+    width: 100%;
+  }
+
+  div>label{
+      font-size: 15px;
+  }
+
+  ::ng-deep .mat-form-field-appearance-legacy .mat-form-field-wrapper{
+      padding-bottom: 10px;
+  }
+
+
+h1.title{
+    font-family: Roboto;
+    margin-left: 25px;
+    font-size: large;
+    }

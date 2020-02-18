@@ -1,0 +1,13 @@
+
+mat-horizontal-stepper{
+    padding-bottom: 0px;
+}
+
+::ng-deep mat-step-header{
+    width: 1%;
+}
+ ::ng-deep div.mat-horizontal-stepper-header-container {
+     margin-left: 350px;
+    margin-top: 25px;
+    width: 45%;
+ }

@@ -1,0 +1,12 @@
+button.account{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    border: none;
+    background: none;
+    color: black;
+}
+
+::ng-deep div.mat-menu-panel{
+    overflow: hidden;
+}

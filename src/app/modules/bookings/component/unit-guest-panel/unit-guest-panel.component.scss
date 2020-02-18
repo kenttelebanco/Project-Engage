@@ -1,0 +1,23 @@
+@import "src/styles/global";
+
+mat-card{
+    margin-top: 320px;
+    height: 50px;
+}
+
+div.guest-panel{
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+div.row2{
+    font-weight: bold;
+    float: right;
+    margin-left: 250px;
+}
+
+div.row1{
+    font-weight: 400;
+    float: left;
+}
+

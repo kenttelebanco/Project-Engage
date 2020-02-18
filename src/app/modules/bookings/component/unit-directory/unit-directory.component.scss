@@ -1,0 +1,14 @@
+div{
+    margin-left: 10px;
+}
+
+ul.list-inline{
+    padding-left: 0px;
+}
+ul.list-inline>li{
+    font-size: 14px;
+    display: inline;
+    padding-left: 0px;
+}
+
+li.list-inline-item::before {content: "•"; color: black}
