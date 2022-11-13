@@ -1,4 +1,5 @@
 # ProjectEngage
+A booking app used by clients to book accomodations. Complete with working mock details, forms, payment method, and such.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
 
